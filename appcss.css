@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding-top: 10px;
+    text-align: left;
+    background-color: #04a5a5;
+    color: white;
+    font-size: 50px;
+
+}
+.title{
+    padding-left: 25px;
+}
+.content
+{
+    height: 800px;
+}
+#btnNewQuestion
+{
+    border: none;
+    height: 25px;
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
+    background-color : #04a5a5;
+}
+#quesSrch
+{
+    outline: none;
+    border-style: solid;
+    border-width: 1px;
+    
+    height: 20px;
+    width:170px;
+}
+.leftContent
+{
+    width: 40%;
+    height: 100%;
+}
+.srchBtn
+{
+    padding-left: 10px;  
+}
+.rightContent
+{
+
+    padding-left: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.subTitle
+{
+    text-align: center;
+}
+.titleDoubt
+{
+    text-align: center;
+    font-size: 35px;
+}
+.subjectStyle
+{ 
+    margin-top:20px ;
+    width:70%;
+    height: 20px;
+}
+.quesStyle
+{
+    margin-top: 20px;
+    resize: none;
+    height: 350px;
+    width: 70%;
+}
+.submitBtnStyle
+{
+    border: none;
+    float: right;
+    margin-top: 5px;
+    margin-right: 125px;
+    width: 70px;
+    height: 30px;
+    font-size: 15px;
+    color: white;
+    background-color: #04a5a5;
+}
+.questionContainer
+{
+    height: 100%;
+    opacity: 0.8;
+    
+    background: rgb(238, 232, 232);
+}
+.ResponseQuestion
+{
+    padding-top: 3%;
+    text-align: left;
+    font-size: 20px;
+
+}
+table{
+    width: 100%;
+    height: 800px;
+    padding: 0;
+}
+tr td{
+    padding: 0;
+}
+.leftcol
+{
+    width:40%
+}
+.ql{
+    height: 92%;
+}
+.ResponseContainer
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: subjectStyle;
+    margin-left: 25px;
+}
+.Qbox
+{
+    background-color: rgb(238, 232, 232);
+    text-align: left;
+    border-radius: 5px;
+    width:85%;
+    height:auto;
+    margin-top:10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Qbox-sub
+{
+    margin-left: 10px;
+    font-size: 30px;
+}
+.Qbox-Ques
+{
+    margin-left: 10px;
+    font-size: 15px;
+}
+.Rbox
+{
+    background-color: rgb(238, 232, 232);
+    text-align: left;
+    border-radius: 5px;
+    width:85%;
+    height:auto;
+    margin-top:10px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+}
+.Rbox-name
+{
+    margin-left: 10px;
+    font-size: 30px;
+}
+.Rbox-ans
+{
+    margin-left: 10px;
+    font-size: 15px;
+}
+.valBox
+{
+    background-color: rgb(238, 232, 232);
+    text-align: left;
+    border-radius: 5px;
+    width:100%;
+    height:auto;
+    margin-top:20px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    border-bottom: solid;
+    border-color: grey;
+}
+.valSub
+{
+    margin-left: 10px;
+    font-size: 30px;
+}
+.valQues
+{
+    margin-left: 10px;
+    font-size: 15px;
+}

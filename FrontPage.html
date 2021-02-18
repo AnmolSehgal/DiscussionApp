@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="DiscussionApp.js"></script>
+    <link rel="stylesheet" href="appcss.css">
+</head>
+<body>
+    <header >
+        <p class="title">Discussion Portal</p>
+    </header>
+    <div class="content">
+        <table cellpadding="0">
+            <tr>
+            <td class="leftcol">
+            <div class="srchBtn">
+                <button id="btnNewQuestion" onclick=quesForm()>New Question</button>
+                <input type="text" id="searchQues" onkeyup="srchFxn()">
+            </div>
+            </td>
+            <td rowspan="2"class="rightContent">
+                <div class="titleDoubt"><p>Welcome to Discussion Portal !</p></div>
+                <p class="subTitle">Enter The subject and question to get Started</p>
+                <div class="sub"><input type="text" id="subject" class="subjectStyle"></div>
+                <div class="textAreaQues">
+                    <textarea id="ques" class="quesStyle"></textarea>
+                </div>
+                <button id="submitBtn" onclick="addQuestion()" class="submitBtnStyle">submit</button>
+        </div>
+        </div>
+        </td>
+        </tr>
+        <tr>
+            <td class="leftcol ql">
+                <div class="questionContainer">
+                    <ul id="quesList">
+                    </ul>
+                </div>
+            </td>
+    </tr>
+    </table>
+</div>
+</body>
+</html>
